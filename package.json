@@ -75,9 +75,9 @@
     "test:init": "pnpm -F=tests-init test",
     "test:init:watch": "pnpm -F=tests-init watch",
     "docs": "pnpm --stream '/^(docs:)?dev$/'",
-     "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
     "docs:debug": "NODE_OPTIONS='--inspect-brk' pnpm docs:dev",   
     "docs:build:only": "pnpm -F=docs build",
     "docs:lunaria:build": "pnpm -F=docs lunaria:build",
